@@ -1,0 +1,7 @@
+{
+  "name": "@repo/backend",
+  "private": true,
+  "scripts": {
+    "dev": ".\\venv\\Scripts\\python.exe -m uvicorn main:app --app-dir . --reload"
+  }
+}
