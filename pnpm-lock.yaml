@@ -20,11 +20,10 @@ importers:
 
   apps/backend: {}
 
-  apps/frontend:
+  apps/frontend: {}
+
+  apps/frontend/app/yt_summarizer:
     dependencies:
-      '@repo/shared-types':
-        specifier: workspace:*
-        version: link:../../packages/shared-types
       react:
         specifier: ^19.1.0
         version: 19.1.0
